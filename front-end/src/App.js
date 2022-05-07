@@ -5,7 +5,7 @@ import Form from './components/Form';
 
 function App() {
   
-  const dataPoints={supervisors:'http://localhost:4000/api/supervisors',post:'http://localhost:4000/api/submit'}
+  const dataPoints={supervisors:'/server/api/supervisors',post:'/server/api/submit'}
 
   const formFieldNames=[{label:'First Name',name:'firstName',type:'text'},
                         {label:'Last Name',name:'lastName',type: 'text'},
